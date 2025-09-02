@@ -53,15 +53,55 @@ Click the thumbnail above to watch the full demo on YouTube.
 ```bash
 git clone https://github.com/your-username/multi-pdf-rag-chatbot.git
 cd multi-pdf-rag-chatbot
-
-## 2. Create Virtual Environment & Install Dependencies
-
+```
+##2. Create Virtual Environment & Install Dependencies
+```
 python -m venv RAGBot
 source RAGBot/bin/activate   # (On Mac/Linux)
 RAGBot\Scripts\activate      # (On Windows)
 
 pip install -r requirements.txt
-
+```
 3. Add OpenAI API Key
 
 Create a .env file in the root directory:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+4. Run the App
+```
+streamlit run app.py
+```
+Example Questions for Chapter 9 PDF:
+
+What is the main topic of Chapter 9?
+
+Explain the concept of simple linear regression described in this chapter.
+
+What assumptions does linear regression make?
+
+What is the formula for linear regression?
+
+What are residuals in linear regression?
+
+Project Structure
+```
+multi-pdf-rag-chatbot/
+│── app.py                  # Streamlit App
+│── test.py                 # Local Testing Script
+│── .env                    # API Key
+│── requirements.txt        # Dependencies
+│── utils/
+│   ├── pdf_loader.py       # PDF Text Extraction
+│   ├── splitter.py         # Text Chunking
+│   ├── embeddings.py       # OpenAI Embeddings
+│   ├── vector_store.py     # ChromaDB Vector Store
+│   ├── rag_chain.py        # QA Chain with OpenAI
+│── assets/
+│   ├── home.png            # Screenshot 1
+│   ├── upload.png          # Screenshot 2
+│   ├── chat.png            # Screenshot 3
+│   ├── demo-thumbnail.png  # Video Thumbnail
+```
+Connect With Me
+LinkedIn
