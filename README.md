@@ -102,6 +102,4 @@ multi-pdf-rag-chatbot/
 │   ├── upload.png          # Screenshot 2
 │   ├── chat.png            # Screenshot 3
 │   ├── demo-thumbnail.png  # Video Thumbnail
-```
-Connect With Me
-LinkedIn
+
