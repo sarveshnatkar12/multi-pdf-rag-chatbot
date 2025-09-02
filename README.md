@@ -27,13 +27,7 @@ This application allows users to upload multiple PDF documents, ask natural lang
 ### Chat Interface
 ![Chat](assets/chat.png)
 
----
 
-## Demo Video
-
-[![Watch the video](assets/demo-thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-Click the thumbnail above to watch the full demo on YouTube.
 
 ---
 
