@@ -1,0 +1,28 @@
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.RAGBot/
+RAGBot/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables and sensitive info
+.env
+
+# Chroma database (local vector store)
+chroma_store/
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
