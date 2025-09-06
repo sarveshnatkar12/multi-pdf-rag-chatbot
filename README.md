@@ -28,7 +28,7 @@ This application allows users to upload multiple PDF documents, ask natural lang
 ![Chat](assets/chat.png)
 
 ### Memory
-![Memory](assets/history.png
+![Memory](assets/history.png)
 
 
 
